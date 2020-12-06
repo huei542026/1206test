@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/1108_04.css">
+    <style>
+        div ul {
+            display: block;
+            background-color: #343a40;
+            width: 100%;
+            height: 8vh;
+            line-height: 8vh;
+        }
+
+        div ul li {
+            display: inline;
+            color: white;
+        }
+
+        .logo {
+            margin-left: 100px;
+
+        }
+
+        .selection {
+            margin-right: 30px;
+            float: right;
+        }
+
+        .product {
+            margin-right: 80px;
+        }
+
+        .product,
+        .about {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .product:hover,
+        .about:hover {
+            color: seashell;
+
+        }
+
+        .photo {
+            display: block;
+            width: 100%;
+            height: 300px;
+            background-image: url("images/banner.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            float: left;
+        }
+        .box{
+            display: block;
+            width: 80%;
+            height: 800px;
+            margin: 0px auto;
+        }
+        .txt1,.txt2,.pic1,.pic2 {
+            display: block;
+            width: 50%;
+            float: left;
+        }
+        .pic1 img,.pic2 img{
+            width: 100%;
+        }
+        .txt1 h3,.txt2 h3{
+            color:#FA8072;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .txt1{
+            display: block;
+            text-align: center;
+            box-sizing: border-box;
+            /* padding: 6%; */
+            line-height: 30px;
+            padding-top: 8%;
+        }
+        .txt2{
+            display: block;
+            text-align: center;
+            box-sizing: border-box;
+            /* padding: 6%; */
+            line-height: 30px;
+            padding-top: 11%;
+        }
+        .pic1{
+            display: block;
+            
+        }
+        .footer{
+            /* clear: both; */
+            display: block;
+            background-color: #343a40;
+            text-align: center;
+            float: left;
+            width: 100%;
+            height: 45px;
+            line-height: 10px;
+        }
+        .footer p{
+            /* padding:10px 10px 0px 10px; */
+            padding: 0;
+            font-size: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li class="logo">臻臻．甜點屋</li>
+            <li class="selection product">產品介紹</li>
+            <li class="selection about"><a href="about.html">關於我們</a> </li>
+            <li class="selection home"><a href="index.html">首頁</a> </li>
+        </ul>
+    </div>
+    <div class="photo">
+    </div>
+    <div class="box">
+        <div class="txt1">
+            <h3>| 關於我們About Us</h3>
+            <p>吃一口讓你宛如置身月球上，每一口都是滿滿的幸福。</p>
+            <p>
+                嚴選獨家法式香草佐料<br>
+                時尚、純手工製作<br>
+                全月球第一家上市總店<br>
+                採用台灣當季新鮮特產水果
+            </p>
+        </div>
+        <div class="pic1">
+            <img src="images/cupcake.jpg" alt="繽紛杯子蛋糕">
+        </div>
+        <div class="pic2">
+            <img src="images/macarons.jpg" alt="甜心馬卡龍">
+        </div>
+        <div class="txt2">
+            <h3>| 店家資訊About Us</h3>
+            <p>營業時間：23:59p.m. ~ 00:00a.m.<br>
+                電話：04-12345678<br>
+                地址：月球
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2020 All Rights Reserved.</p>
+    </div>
+</body>
+
+</html>
